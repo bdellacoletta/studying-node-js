@@ -22,8 +22,4 @@ http.createServer((req, res) => {
     }
   )
 
-  // if(req.url === '/') {
-  //
-  // }
-
 }).listen(5000, () => console.log('server is running'))
